@@ -10,9 +10,13 @@ Yes, another NIN reference :)
 
 When assembled, these cables allow you to program a payload that is triggered on power up. The device plugged into the other end will receive power for charging. This makes for a decent educational demo. 
 
+**Materials**
+
 This year  (2019) at DEFCON I will have a bunch of these in build-kit form, partially assembled build-kit form, and blank boards. So come find me! [https://twitter.com/\_MG_](https://twitter.com/_MG_)
 
 Programming instructions and BOM will be added over the next month, but you can use any ATTiny85 programming guides for now. 
+
+http://usb.makerusa.net Is a great source for these USB connectors & enclosures if you will be assembling your own without a build kit. 
 
 **LICENSE:**
 
