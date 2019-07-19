@@ -5,6 +5,6 @@ In 2017 I started playing around with miniaturizing HID attack hardware inside o
 
 Programming instructions and BOM will be added over the next month, but you can use any ATTiny85 programming guides for now. 
 
+**LICENSE:**
 
-
-
+These are intended for personal use and education in a nonprofit way. Please ask if you want utilize these for profit. 
