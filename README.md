@@ -97,6 +97,7 @@ Solder up the 2x3 pin header and the pogo pins as shown in the picture. Make sur
 
 ### [↑](#table-of-contents) Cable Assembly
 
+```<font color="red">STOP!</font>``` 
 STOP! Have you programmed the bootloader? If not, you will probably want to do this before moving on to cable assembly. You can still program the bootloader after you have attached the board to the connector, but solder sometimes fills in the small holes on the 2 pogo pads, which makes it a little more difficult to keep the programmer in position. 
 
 Now, the first step is to solder the board into the USB connector. Apply a layer of solder to the connector before trying to solder the two together, this will help. Then position the board onto the connector. It helps to turn the assembly on its back, secured on a bed of blu tack, when doing this. **But before you start doing this:**
