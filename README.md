@@ -97,8 +97,8 @@ Solder up the 2x3 pin header and the pogo pins as shown in the picture. Make sur
 
 ### [↑](#table-of-contents) Cable Assembly
 
-```<font color="red">STOP!</font>``` 
-STOP! Have you programmed the bootloader? If not, you will probably want to do this before moving on to cable assembly. You can still program the bootloader after you have attached the board to the connector, but solder sometimes fills in the small holes on the 2 pogo pads, which makes it a little more difficult to keep the programmer in position. 
+
+***STOP!*** Have you programmed the bootloader? If not, you will probably want run through the bootloader programming section (scroll down) before moving on to cable assembly. You can still program the bootloader after you have attached the board to the connector, but solder sometimes fills in the small holes on the 2 pogo pads, which makes it a little more difficult to keep the programmer in position. 
 
 Now, the first step is to solder the board into the USB connector. Apply a layer of solder to the connector before trying to solder the two together, this will help. Then position the board onto the connector. It helps to turn the assembly on its back, secured on a bed of blu tack, when doing this. **But before you start doing this:**
 
@@ -107,7 +107,7 @@ There are two types of USB connectors and their pins are reversed from eachother
 ![](./images/connector1.jpg)
 ![](./images/connector2.jpg)
 
-STOP! At this point, I recommend verifying that you can interface with DemonSeed via USB. Run through the "Programming a Payload" section and verify that it works. 
+***STOP!*** At this point, I recommend verifying that you can interface with DemonSeed via USB. Run through the "Programming a Payload" section (scroll down) and verify that it works. 
 
 Once all functionality is confirmed, you can attach a cable and close up the implant. 
 
@@ -139,6 +139,8 @@ First, install avr dude:https://learn.adafruit.com/usbtinyisp/avrdude
 Then, download a copy of the ATTiny85 binary from the micronucleus project here: https://raw.githubusercontent.com/micronucleus/micronucleus/master/firmware/releases/t85_default.hex Micronucleus provides a really convenient functionality: It allows us to push payloads over a USB interface so we only need to use the pogo programmer once. 
 
 Now, connect your ISP programmer to the 2x3 header on the pogo programmer using the jumper cables. **Please make note of the labeled pins. This 2x3 connector does not use a standard ISP pinout (sorry), so you need to ensure the proper pins are connected** 
+![](./images/programmerwiring2.jpg)
+
 
 Then press the pogo pins against the board. Two of the pads have small holes in the center that help the tips of the pogo pins click into place and keep them there. The operation will look like this: 
 ![](./images/pogoprogramming.jpg)
@@ -146,6 +148,7 @@ Then press the pogo pins against the board. Two of the pads have small holes in 
 Verify connectivity by running `avrdude -c usbasp -p attiny85`
 
 If connectivity is working, you can flash the bootloader and set the [fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=attiny85) by running `avrdude -c usbasp -p attiny85 -U flash:w:t85_default.hex:i -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xfe:m`
+
 
 
 ### [↑](#table-of-contents) Programming a Payload
@@ -161,4 +164,4 @@ https://shop.hak5.org/blogs/news/what-is-the-best-security-awareness-payload-for
 
 These are intended for personal use and education in a nonprofit way. Please ask if you want utilize these for profit. 
 
-![assembled](https://github.com/O-MG/DemonSeed/blob/master/display.png)
+
