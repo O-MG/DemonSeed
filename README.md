@@ -4,7 +4,7 @@
 
 DemonSeed is minimal malicious USB cable. Not to be confused with the O.MG Cable (https://o.mg.lol), which is a very differient piece of hardware that does a whole lot more, and is coming very soon :)
 
-**For those with the DEFCON 2019 kit, there are 3 separate build difficulties to choose from.** And you have the possibility of ending up with 2 functional implant boards when finished. 
+**For those with the DEFCON 2019 kit, there are [3 separate build difficulties to choose from](#-assembly-instructions).** And you have the possibility of ending up with 2 functional implant boards when finished. 
 
 Table of Contents
 =================
@@ -71,9 +71,9 @@ Don't have a build kit? Want to source your own parts?
 ## [↑](#table-of-contents) Assembly Instructions
 If you have a kit, then you have 2 boards that allow you to choose your own adventure here. 
 
-**Full difficulty**: You can use the unassembled board and do 100% of the assembly. 
+**Full difficulty**: You can use the unassembled board and do 100% of the assembly. You will need solder paste and a heat source sufficient for solder reflow to start here. 
 
-**Medium difficulty**: You can use the additional assembled board in the kit and skip to the pogo programmer assembly. 
+**Medium difficulty**: You can use the additional assembled board in the kit and skip directly to the pogo programmer assembly. 
 
 **Easiest difficulty**: You can also use the same assembled board and skip directly to cable assembly because I preprogrammed all of these boards with a bootloader already. 
 
