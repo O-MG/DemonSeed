@@ -73,9 +73,9 @@ If you have a kit, then you have 2 boards that allow you to choose your own adve
 
 **Full difficulty**: You can use the unassembled board and do 100% of the assembly. You will need solder paste and a heat source sufficient for solder reflow to start here. 
 
-**Medium difficulty**: You can use the additional assembled board in the kit and skip directly to the pogo programmer assembly. 
+**Medium difficulty**: You can use the additional assembled board in the kit and skip directly to the pogo programmer assembly. You will need a soldering iron, ISP programmer, something like blu tack/mounting putty to help hold things together while you solder, and a computer with avrdude installed. 
 
-**Easiest difficulty**: You can also use the same assembled board and skip directly to cable assembly because I preprogrammed all of these boards with a bootloader already. 
+**Easiest difficulty**: You can also use the same assembled board and skip directly to cable assembly because I preprogrammed all of these boards with a bootloader already. You will need a soldering iron and a computer with the Arduino IDE. 
 
 DEFCON 2019 kit: 
 ![](./images/kitclosed.jpg)
