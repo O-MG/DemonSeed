@@ -146,9 +146,9 @@ Now, connect your ISP programmer to the 2x3 header on the pogo programmer using 
 Then press the pogo pins against the board. Two of the pads have small holes in the center that help the tips of the pogo pins click into place and keep them there. The operation will look like this: 
 ![](./images/pogoprogramming.jpg)
 
-Verify connectivity by running `avrdude -c usbasp -p attiny85`
+Verify connectivity by running `avrdude -c usbasp -p attiny85` (note: you will want to change out "usbasp" to match whatever ISP you are using)
 
-If connectivity is working, you can flash the bootloader and set the [fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=attiny85) by running `avrdude -c usbasp -p attiny85 -U flash:w:t85_default.hex:i -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xfe:m`
+If connectivity is working, you can flash the bootloader and set the [fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=attiny85) by running `avrdude -c usbasp -p attiny85 -U flash:w:t85_default.hex:i -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xfe:m`  (note: you will want to change out "usbasp" to match whatever ISP you are using)
 
 
 
