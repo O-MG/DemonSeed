@@ -48,6 +48,7 @@ In addition to the build kit, you will need some/all of the following depending 
     * Example: https://www.amazon.com/gp/product/B00R96X8JS/ 
   * An AVR ISP. 
     * There are a lot of options here. You can even make them out of Arduino capable devices, including other ATTiny's. If you don't want to figure this out, I have found the USBasp to be work with minimal work (works on OS X & Linux, need a driver for Windows). https://www.amazon.com/s?k=usbasp This specific one has worked just fine: https://www.amazon.com/gp/product/B00AX4WQ00/. **Just make sure to connect the J3 jumper or it won't work on the ATTiny85** 
+    * Not familiar with what an ISP (in system programmer) is? Here is a decent intro: https://www.ladyada.net/learn/avr/programming.html
 
 * For assembly of the unpopulated PCB:
   * Solder Paste
@@ -154,7 +155,7 @@ If connectivity is working, you can flash the bootloader and set the [fuse bits]
 ### [↑](#table-of-contents) Programming a Payload
 Install [Arduino IDE](https://www.arduino.cc/en/Main/Software) if you don't already have it.
 
-If you don't already the DigiStump board manager installed, do so using [these instructions](http://digistump.com/wiki/digispark/tutorials/connecting). Then select board **DigiSpark (Default - 16.5mhz)** and select programmer **Micronucleus**. 
+If you don't already have the DigiStump board manager installed, do so using [these instructions](http://digistump.com/wiki/digispark/tutorials/connecting). Then select board **DigiSpark (Default - 16.5mhz)** and select programmer **Micronucleus**. 
 
 You can generate a payload script in a variety of ways. I recommend starting with a [DuckyScript](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads) payload and then converting it with a [digiduck](https://github.com/uslurper/digiduck) which will output the entire Arduino sketch for you. 
 Not sure which payload to try? Hak5 has a nice universal duckscript on their blog here: 
