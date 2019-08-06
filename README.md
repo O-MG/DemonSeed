@@ -157,9 +157,8 @@ Install [Arduino IDE](https://www.arduino.cc/en/Main/Software) if you don't alre
 
 If you don't already have the DigiStump board manager installed, do so using [these instructions](http://digistump.com/wiki/digispark/tutorials/connecting). Then select board **DigiSpark (Default - 16.5mhz)** and select programmer **Micronucleus**. 
 
-You can generate a payload script in a variety of ways. I recommend starting with a [DuckyScript](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads) payload and then converting it with a [digiduck](https://github.com/uslurper/digiduck) which will output the entire Arduino sketch for you. 
-Not sure which payload to try? Hak5 has a nice universal duckscript on their blog here: 
-https://shop.hak5.org/blogs/news/what-is-the-best-security-awareness-payload-for-the-rubber-ducky
+You can generate a payload script in a variety of ways. I recommend starting with a [DuckyScript](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads) payload and then converting it with [digiQuack](https://github.com/CedArctic/digiQuack) which will output the converted Arduino/DigiSpark sketch for you. 
+Not sure which payload to try? Try this: https://github.com/CedArctic/DigiSpark-Scripts/blob/master/RickRoll_Update/RickRoll_Update.ino
 
 **LICENSE:**
 
