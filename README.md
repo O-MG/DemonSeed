@@ -7,16 +7,16 @@ DemonSeed is minimal malicious USB cable. Not to be confused with the O.MG Cable
 Table of Contents
 =================
 
- * [Intro](#-intro)
- * [Materials](#-Materials)
- * [Assembly Instructions](#-assembly-instructions)
- ** [Board Assembly](#-board-assembly)
- ** [Pogo Programmer Assembly](#-pogo-programmer-assembly)
- ** [Cable Assembly](#-cable-assembly)
- * [Programming Instructions](#-programming-instructions)
- ** [Programming the Bootloader](#-programming-the-bootloader)
- ** [Programming a Payload](#-programming-a-payload)
- * [License](#-license)
+* [Intro](#-intro)
+* [Materials](#-Materials)
+* [Assembly Instructions](#-assembly-instructions)
+  * [Board Assembly](#-board-assembly)
+  * [Pogo Programmer Assembly](#-pogo-programmer-assembly)
+  * [Cable Assembly](#-cable-assembly)
+* [Programming Instructions](#-programming-instructions)
+  * [Programming the Bootloader](#-programming-the-bootloader)
+  * [Programming a Payload](#-programming-a-payload)
+* [License](#-license)
 
 
 
