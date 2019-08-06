@@ -4,6 +4,8 @@
 
 DemonSeed is minimal malicious USB cable. Not to be confused with the O.MG Cable (https://o.mg.lol), which is a very differient piece of hardware that does a whole lot more, and is coming very soon :)
 
+**For those with the DEFCON 2019 kit, there are 3 separate build difficulties to choose from.** And you have the possibility of ending up with 2 functional implant boards when finished. 
+
 Table of Contents
 =================
 
@@ -68,8 +70,11 @@ Don't have a build kit? Want to source your own parts?
 
 ## [↑](#table-of-contents) Assembly Instructions
 If you have a kit, then you have 2 boards that allow you to choose your own adventure here. 
+
 **Full difficulty**: You can use the unassembled board and do 100% of the assembly. 
+
 **Medium difficulty**: You can use the additional assembled board in the kit and skip to the pogo programmer assembly. 
+
 **Easiest difficulty**: You can also use the same assembled board and skip directly to cable assembly because I preprogrammed all of these boards with a bootloader already. 
 
 DEFCON 2019 kit: 
@@ -86,7 +91,7 @@ You will need to use solder paste with a heat source to reflow the solder. Hand 
 
 ### [↑](#table-of-contents) Pogo Programmer Assembly
 
-Solder up the 2x3 pin header and the pogo pins as shown in the picture. Make sure the solder stays on the outer brass of the pogo pin and does not bleed over to the tips. Using some blu tack will help a lot when trying to keep everything lined up. The smaller board is intended to help keep the pins lined up. 
+Solder up the 2x3 pin header and the pogo pins as shown in the picture. Make sure the solder stays on the outer brass of the pogo pin and does not bleed over to the tips. Using some blu tack will help a lot when trying to keep everything lined up. The smaller board is intended to help keep the pins lined up while soldering. So place the pogo pins through both boards and hold them into position with the blu tack (as seen in the picture) before you start soldering the pogo pins on. 
 
 ![](./images/pogosoldering.jpg)
 
