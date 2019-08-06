@@ -10,7 +10,12 @@ Table of Contents
  * [Intro](#-intro)
  * [Materials](#-Materials)
  * [Assembly Instructions](#-assembly-instructions)
+ ** [Board Assembly](#-board-assembly)
+ ** [Pogo Programmer Assembly](#-pogo-programmer-assembly)
+ ** [Cable Assembly](#-cable-assembly)
  * [Programming Instructions](#-programming-instructions)
+ ** [Programming the Bootloader](#-programming-the-bootloader)
+ ** [Programming a Payload](#-programming-a-payload)
  * [License](#-license)
 
 
@@ -60,12 +65,26 @@ Don't have a build kit? Want to source your own parts?
 
 
 ## [↑](#table-of-contents) Assembly Instructions
+If you have a kit, then you have 2 boards that allow you to choose your own adventure here. 
+**Full difficulty**: You can use the unassembled board and do 100% of the assembly. 
+**Medium difficulty**: You can use the additional assembled board in the kit and skip to the pogo programmer assembly. 
+**Easiest difficulty**: You can also use the same assembled board and skip directly to cable assembly because I preprogrammed all of these boards with a bootloader already. 
+
+### [↑](#table-of-contents) Board Assembly
+todo
+
+### [↑](#table-of-contents) Pogo Programmer Assembly
+todo
+
+### [↑](#table-of-contents) Cable Assembly
+todo
+
 
 ## [↑](#table-of-contents) Programming Instructions
 There are two programming requirements. A blank ATTiny85 will need a bootloader flashed and the fuse bits set properly. After that, you can program HID payloads. 
 
-### Programming the Bootloader
-If you are using the board that came preassembled in a kit, you can technically skip this step as I flashed the bootloader already. However, it is still worth trying. If you have assembled the empty board with components, the ATTiny is empty so you will want to install a bootloader. 
+### [↑](#table-of-contents) Programming the Bootloader
+If you are using the board that came preassembled in a kit, you can technically skip this step be ause I flashed the bootloader already. However, it is still worth learning how to do this. If you have assembled the empty board with components, the ATTiny is empty so you will want to install a bootloader. 
 
 First, install avr dude:https://learn.adafruit.com/usbtinyisp/avrdude
 
@@ -78,7 +97,7 @@ Verify connectivity by running `avrdude -c usbasp -p attiny85`
 If connectivity is working, you can flash the bootloader and set the [fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=attiny85) by running `avrdude -c usbasp -p attiny85 -U flash:w:t85_default.hex:i -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xfe:m`
 
 
-### Programming a payload
+### [↑](#table-of-contents) Programming a payload
 Install [Arduino IDE](https://www.arduino.cc/en/Main/Software) if you don't already have it.
 
 If you don't already the DigiStump board manager installed, do so using [these instructions](http://digistump.com/wiki/digispark/tutorials/connecting). Then select board **DigiSpark (Default - 16.5mhz)** and select programmer **Micronucleus**. 
