@@ -133,7 +133,7 @@ And you are done!
 There are two programming requirements. A blank ATTiny85 will need a bootloader flashed and the fuse bits set properly. After that, you can program HID payloads. 
 
 ### [↑](#table-of-contents) Programming the Bootloader
-If you are using the board that came preassembled in a kit, you can technically skip this step be ause I flashed the bootloader already. However, it is still worth learning how to do this. If you have assembled the empty board with components, the ATTiny is empty so you will want to install a bootloader. 
+If you are using the board that came preassembled in a kit, you can technically skip this step because I flashed the bootloader already. However, it is still worth learning how to do this. If you have assembled the empty board with components, the ATTiny is empty so you will want to install a bootloader. 
 
 First, install avr dude:https://learn.adafruit.com/usbtinyisp/avrdude
 
