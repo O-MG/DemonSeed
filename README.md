@@ -11,7 +11,7 @@
 
 DemonSeed is minimal malicious USB cable. Not to be confused with the O.MG Cable (https://o.mg.lol), which is a very differient piece of hardware that does a whole lot more, and is coming very soon :)
 
-**For those with the DEFCON 2019 kit, there are [3 separate build difficulties to choose from](#-assembly-instructions).** And you have the possibility of ending up with 2 functional implant boards when finished. 
+**For those with the DEFCON 2019 DemonSeed kit, there are [3 separate build difficulties to choose from](#-assembly-instructions).** And you have the possibility of ending up with 2 functional implant boards when finished. 
 
 Table of Contents
 =================
