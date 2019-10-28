@@ -1,3 +1,8 @@
+# ** New version coming Nov! DemonSeed is getting an overhaul. Basic RF trigger, data passthrough (without a switch or hub!), easier programming, and video walkthroughs. 
+
+# 
+
+
 # D̴̹̭͂ë̷̗́̃̿̓̾͜ṃ̸͔͚̗̙̪̎̄̋ȏ̸̝̤̱͜n̶͇͇͙̻̩͑͑S̴̳̩̮̥͚̥̚ė̸̟̃͋͂͝e̷̪̲̪̰̣̿̀͠d̵̡̂͗
 
 .
