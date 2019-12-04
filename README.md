@@ -1,11 +1,17 @@
 # New version coming Nov! 
 **DemonSeed is getting an overhaul. Basic RF trigger, data passthrough (without a switch or hub!), stealth, line usage awareness, easier programming, and video walkthroughs.**
 
+## Already have a new one? Then please head to https://o.mg.lol/setup/. The below instructions WILL NOT WORK with the new kit!
+
 The new version even has a logo from [Dustrial](https://dustrial.net/)
 
 <img src="./images/DemonSeedEDU.jpg" width="300">
 
 # 
+
+
+
+
 
 
 # D̴̹̭͂ë̷̗́̃̿̓̾͜ṃ̸͔͚̗̙̪̎̄̋ȏ̸̝̤̱͜n̶͇͇͙̻̩͑͑S̴̳̩̮̥͚̥̚ė̸̟̃͋͂͝e̷̪̲̪̰̣̿̀͠d̵̡̂͗
