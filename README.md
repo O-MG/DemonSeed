@@ -1,9 +1,18 @@
-# New version coming Nov! 
-**DemonSeed is getting an overhaul. Basic RF trigger, data passthrough (without a switch or hub!), stealth, line usage awareness, easier programming, and video walkthroughs.**
+# New version is here! 
+**The original one-off kit from DEFCON2019 got an overhaul!**
+
+**I saw a lot of demand for DemonSeed even outside of Defcon, but I wanted to add more features and polish before trying to respond to that demand. I also saw the various challenges many people encountered when trying to follow these (very rapidly assembled) instructions. So, the v2 of DemonSeed (now called [O.MG DemonSeed EDU](https://o.mg.lol/DemonSeed)) focuses less on physical assembly and more on HOW things work.** 
+ 
+**DemonSeed now has some new tricks, like a primitive RF trigger, data passthrough (without a switch or hub!), stealth, line usage awareness, easier programming, and it is all being tied to an ongoing instructional video series to help make the instructions easier to follow and to allow more information to be shared. This is an experiment, so let's see how it goes...**
+
+
+
+
 
 ## Already have a new one? Then please head to https://o.mg.lol/setup/. The below instructions WILL NOT WORK with the new kit!
 
-The new version even has a logo from [Dustrial](https://dustrial.net/)
+
+The new version even has a logo from [Dustrial](https://dustrial.net/search?q=demonseed)
 
 <img src="./images/DemonSeedEDU.jpg" width="300">
 
