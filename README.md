@@ -81,7 +81,7 @@ In addition to the build kit, you will need some/all of the following depending 
 
 Don't have a build kit? Want to source your own parts? 
 * per implant: 
-  * 2x [DIODE ZENER 3.6V 150MW SSMINI2](https://www.digikey.com/product-detail/en/panasonic-electronic-components/DZ2S036M0L/DZ2S036M0LCT-ND/2269096) (most 3.6V Zener diodes under 500MW that have a SOD523/SSMINI2 footprint should work)
+  * 2x [DIODE ZENER 3.6V 150MW SSMINI2](https://www.digikey.com/product-detail/en/panasonic-electronic-components/DZ2S03600L/DZ2S03600LCT-ND/2269095) (most 3.6V Zener diodes under 500MW that have a SOD523/SSMINI2 footprint should work)
   * 2x [RES 68 OHM 1% 1/10W 0603](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT68R0/RMCF0603FT68R0CT-ND/2418121) (any 68 ohm resistor with a 0603 footprint is fine)
   * 1x [RES SMD 1.5K OHM 1% 1/10W 0603](https://www.digikey.com/product-detail/en/yageo/RC0603FR-071K5L/311-1.50KHRCT-ND/729811) (any 1.5k ohm resistor with a 0603 footprint is fine)
   * 1x [IC MCU 8BIT 8KB FLASH 20QFN	](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY85-20MU/ATTINY85-20MU-ND/1245919)
