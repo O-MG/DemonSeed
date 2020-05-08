@@ -9,24 +9,26 @@
 
 
 
-## Already have a new one? Then please head to https://o.mg.lol/setup/. The below instructions WILL NOT WORK with the new kit!
+## If you have the new v2 (O.MG DemonSeed EDU), please head to https://o.mg.lol/setup/ and follow the video series that walks through the instructions and new features of the new boards. !! The below instructions WILL NOT WORK with the new kit!
 
 
-The new version even has a logo from [Dustrial](https://dustrial.net/search?q=demonseed)
+
 
 <img src="./images/DemonSeedEDU.jpg" width="300">
+DemonSeed logo by [Dustrial](https://dustrial.net/collections/mg)
 
-# 
+=================
+### v1 DemonSeed info below
+=================
 
 
 
 
 
+# D̴̹̭͂ë̷̗́̃̿̓̾͜ṃ̸͔͚̗̙̪̎̄̋ȏ̸̝̤̱͜n̶͇͇͙̻̩͑͑S̴̳̩̮̥͚̥̚ė̸̟̃͋͂͝e̷̪̲̪̰̣̿̀͠d̵̡̂͗ 
 
-# D̴̹̭͂ë̷̗́̃̿̓̾͜ṃ̸͔͚̗̙̪̎̄̋ȏ̸̝̤̱͜n̶͇͇͙̻̩͑͑S̴̳̩̮̥͚̥̚ė̸̟̃͋͂͝e̷̪̲̪̰̣̿̀͠d̵̡̂͗
-
-.
-
+<details><summary>Instructions and License for the v1 kit from DEFCON2019.</summary>
+<p>
 DemonSeed is minimal malicious USB cable. Not to be confused with the O.MG Cable (https://o.mg.lol), which is a very differient piece of hardware that does a whole lot more, and is coming very soon :)
 
 **For those with the DEFCON 2019 DemonSeed kit, there are [3 separate build difficulties to choose from](#-assembly-instructions).** And you have the possibility of ending up with 2 functional implant boards when finished. 
@@ -185,8 +187,10 @@ If you don't already have the DigiStump board manager installed, do so using [th
 You can generate a payload script in a variety of ways. I recommend starting with a [DuckyScript](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads) payload and then converting it with [digiQuack](https://github.com/CedArctic/digiQuack) which will output the converted Arduino/DigiSpark sketch for you. 
 Not sure which payload to try? Try this: https://github.com/CedArctic/DigiSpark-Scripts/blob/master/RickRoll_Update/RickRoll_Update.ino
 
+
 **LICENSE:**
 
 These are intended for personal use and education in a nonprofit way. Please ask if you want utilize these for profit. 
 
-
+</p>
+</details>
