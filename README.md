@@ -8,7 +8,7 @@ In 2019, I brought two surprises with me to DEFCON.
 
 Named DemonSeed (yes, after another NIN track), this PCB used a circuit that was based on my very early malicious cable designs. DemonSeed represented the early research I had been doing. It was never up to the standards of a professional tool. It was more of a hobby grade novelty, lacking many of the features I wanted to see. But it held a special place in my journey. 
 
-As O.MG Cable stepped into the light as a proper product, completely replacing everything about the DemonSeed, it felt like the perfect time to let DemonSeed out to the public as a fun DIY kit. 
+As O.MG Cable stepped into the light as a proper product, completely replacing everything about the DemonSeed, it felt like the perfect time to let DemonSeed out at DEFCON as a fun DIY kit. 
 
 Below is an archive of the original DemonSeed kit instructions.
 
