@@ -1,21 +1,21 @@
-# New version is here! 
-**The original one-off kit from DEFCON2019 got an overhaul!**
+Update: 
 
-**I saw a lot of demand for DemonSeed even outside of Defcon, but I wanted to add more features and polish before trying to respond to that demand. I also saw the various challenges many people encountered when trying to follow these (very rapidly assembled) instructions. So, the v2 of DemonSeed (now called [O.MG DemonSeed EDU](https://o.mg.lol/DemonSeed)) focuses less on physical assembly and more on HOW things work.** 
- 
-**DemonSeed now has some new tricks, like a primitive RF trigger, data passthrough (without a switch or hub!), stealth, line usage awareness, easier programming, and it is all being tied to an ongoing instructional video series to help make the instructions easier to follow and to allow more information to be shared. This is an experiment, so let's see how it goes...**
+In 2019, I brought two surprises with me to DEFCON. 
+
+1 - A small batch of the very first O.MG Cable prototypes for sale. (now on [https://o.mg.lol](https://o.mg.lol) )
+
+2 - A bunch of low cost DIY soldering kits packed into dime bags. The point of the kit was to build a very primitive malicious USB cable. Nothing like the O.MG Cable. No wifi or any of the other magic that O.MG Cable could pull off. Just the ability to transmit a very tiny keystroke injection payload on a PCB small enough to fit inside of a cable. The kit allowed you choose your own difficulty, down to soldering on every component to the PCB. With [a candle and spoon](https://twitter.com/_MG_/status/1152317329646088192), if you dared. 
+
+Named DemonSeed (yes, after another NIN track), this PCB used a circuit that was based on my very early malicious cable designs. DemonSeed represented the early research I had been doing. It was never up to the standards of a professional tool. It was more of a hobby grade novelty, lacking many of the features I wanted to see. But it held a special place in my journey. 
+
+As O.MG Cable stepped into the light as a proper product, completely replacing everything about the DemonSeed, it felt like the perfect time to let DemonSeed out to the public as a fun DIY kit. 
+
+Below is an archive of the original DemonSeed kit instructions.
 
 
 
 
 
-## If you have the new v2 (O.MG DemonSeed EDU), please head to https://o.mg.lol/setup/ and follow the video series that walks through the instructions and new features of the new boards. !! The below instructions WILL NOT WORK with the new kit!
-
-
-
-
-<img src="./images/DemonSeedEDU.jpg" width="300">
-DemonSeed logo by [Dustrial](https://dustrial.net/collections/mg)
 
 =================
 ### v1 DemonSeed info below
